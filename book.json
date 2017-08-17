@@ -1,0 +1,44 @@
+{
+    "title": "GitBook 分享",
+    "description": "介绍gitbook的基本使用和扩展",
+    "author": "gagalincheng",
+    "gitbook": "3.2.2",
+    "root": ".",
+    "plugins": [
+        "-lunr",
+        "-search",
+        "-highlight",
+        "-livereload",
+        "search-plus@^0.0.11",
+        "github@^2.0.0",
+        "prism@^2.1.0",
+        "prism-themes@^0.0.2",
+        "splitter@^0.0.8",
+        "tbfed-pagefooter@^0.0.1",
+    ],
+    "pluginsConfig": {
+        "theme-default": {
+            "showLevel": true
+        },
+        "disqus": {
+            "shortName": "gitbookuse"
+        },
+        "prism": {
+            "css": [
+                "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
+            ]
+        },
+        "github": {
+            "url": "https://github.com/zhangjikai/gitbook-use"
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright © gagalincheng 2017",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "simple-page-toc": {
+            "maxDepth": 3,
+            "skipFirstH1": true
+        }
+    }
+}
